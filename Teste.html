@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta nome = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Seletor Universal*/
+        *{
+            margin: 20px;
+        }
+        /*Seletor de tipo,aplicando em um tag*/
+        p{
+            color: rgb(169, 227, 242);
+        }
+
+         /*Seletor de classe*/
+         .paragrafo{
+            background-color: rgb(0, 0, 0);
+            /*margin: 10px; - Aplica em todas as margens*/
+            /*margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
+            /*margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
+            /*margin-left: 10px;*/
+            /*alinha elementos ao centro*/
+            text-align: center;
+
+        }
+        .imagem{
+            width: 100px;
+            height: 100px;
+        }
+       
+    </style>
+</head>
+
+<body style="background-color: antiquewhite;">
+    Olá Mundo!!
+  <!--Titulos de nível 1 ao 6-->>
+    <h1>Cabeçalho de Nível 1</h1>
+    <h2>Cabeçalho de Nível 2</h2>
+    <h3>Cabeçalho de Nível 3</h3>
+    <h4>Cabeçalho de Nível 4</h4>
+    <h5>Cabeçalho de Nível 5</h5>
+    <h6>Cabeçalho de Nível 6</h6>
+    <a href="../index.html">Voltar</a>
+    <!-- Insere uma linha na horizontal -->
+    <hr>
+    <!-- A tag 'p' insere um novo parágrafo -->
+    <p>Este é um     a      parágrafo    <p>Outro paragrafo</p> </p>
+    <hr>
+     
+    <!-- A tag br quebra uma linha,
+     ela é uma tag sem fechamento             -->
+    <p> Este é um texto muito grande,
+        que eu desejo <br> quebrar a linha </p>
+
+
+
+    <!--Inserindo um link para
+    abrir uma página -->
+    <a href="https://media1.tenor.com/images/69bc9f723cc01a128f113c9335517f36/tenor.gif?itemid=16238976">🎸🎇Stitch🎇🎸</a>
+    <a href="https://media.giphy.com/media/ZnnHMeC7iDSzC/giphy.gif" target="_blank">💙Stitch💙</a>
+
+    <img  src="">
+
+     <img src="./IMG/gato.gif">
+     <img src="./IMG/OIP.jfif">
+     <p>parágrafo com caracter &lt;br&gt;</p>
+     <p>&reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr;</p>
+    
+     <p>Inserindo um emoji &#x1F60A &#x2764</p>
+     <!-- Tags para formatação e enfatização do texto -->
+    <b> Texto negrito</b><br>
+    <strong>Texto Importante </strong>
+    <h1><i>H1 Italico</i></h1>
+    <em>Texto enfatizado</em>
+    <mark>Texto marcado</mark>
+    <p>Texto <small>Menor</small></p>
+    <del>Texto Excluido</del><br>
+    <ins>Texto Inserindo</ins>
+    <p>4<sub>3</sub></p>
+    <p>3<sub>3</sub></p>
+    <u>Texto Sublinhado</u>
+    <br>
+    <!-- Aplicando link em uma imagem -->
+     <p><a href="https://www.sesisp.org.br"><img src="./IMG/OIP.jfif" alt=""></a></p>
+ <br>
+    <p  style="font-size: 50px;">Videos do Youtube</p>
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/l41-wCm15lo" title="Bob Esponja | O Clima Mais EXTREMO já Registrado na Fenda do Biquíni | Bob Esponja em Português" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- Aplicando css interno -->
+<p class="paragrafo">
+    gif do gatinho, kkk
+    <img class="imagem" src="./IMG/gato.gif" alt=""> 
+</p>
+
+<!-- Lista -->
+ <!-- Lista Ordenadas -->
+  <ol>
+    <li>Acordar</li>
+    <li>Tomar banho</li>
+    <li>Escovar Dente</li>
+    <li>Escovar Cabelo</li>
+    <li>Trocar de Roupa</li>
+    <li>Ir para escola no horario</li>
+  </ol><br>
+
+  <!-- Lista ordenada com numero romano minusculo -->
+  <ol type="i">
+    <li>Acordar</li>
+    <li>Tomar banho</li>
+    <li>Escovar Dente</li>
+    <li>Escovar Cabelo</li>
+    <li>Trocar de Roupa</li>
+    <li>Ir para escola no horario</li>
+  </ol><br>
+ <!-- Lista ordenada com letras maiusculas -->
+ <ol type="A">
+    <li>Acordar</li>
+    <li>Tomar banho</li>
+    <li>Escovar Dente</li>
+    <li>Escovar Cabelo</li>
+    <li>Trocar de Roupa</li>
+    <li>Ir para escola no horario</li>
+  </ol><br>
+
+  <!-- Lista não ordenada -->
+   <Ul>
+    <li>Bebidas</li>
+    <li>Arroz</li>
+    <li>Carvão</li>
+    <li>Carne</li>
+   </Ul><br>
+
+   <!-- Lista dentro de lista -->
+   <Ul>
+    <li>Carne
+      <ul>
+        <li>Picanha</li>
+        <li>Cupim</li>
+        <li>Ponta de Peito</li>
+      </ul>
+    </li>
+    <li>Bebidas</li>
+    <li>Arroz</li>
+    <li>Carvão</li>
+   </Ul><br>
+<!-- Lista Preferida -->
+ <dl>
+  <dt>HTML</dt>
+  <dt>Linguagem de marcação para o conteúdo de um site</dt>
+  <dt>CSS</dt>
+  <dt>Linguagem de estilização do site</dt>
+  <dt>Javascript</dt>
+  <dt>Linguagem de programação</dt>
+ </dl>
+
+</body>
+</html>
