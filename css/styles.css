@@ -5,7 +5,7 @@
        
          /*Seletor de tipo,aplicando em um tag*/
         p{
-            color: rgb(0, 0, 0);
+            color: rgb(116, 236, 160);
         }
 
          /*Seletor de classe*/
@@ -16,12 +16,28 @@
             /*margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
             /*margin-left: 10px;*/
             /*alinha elementos ao centro*/
-            text-align: center;
+            text-align:center;
 
         }
         .imagem{
             width: 100px;
             height: 100px;
         }
-       
-   
+    body{
+        background-color: grey;
+    }   
+    .tabela{
+        /*Remover os espaços entre as borbas */
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .cabecalho, .celula {
+        /* Configura o formato da borda Eepessura, tipo e cor */
+        border: 2px solid #ddd;
+        /* Define o espamento interno */
+        padding: 5px;
+        text-align: left;
+        color: black;
+    }
+
+
