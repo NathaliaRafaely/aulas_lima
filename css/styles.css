@@ -5,7 +5,7 @@
        
          /*Seletor de tipo,aplicando em um tag*/
         p{
-            color: rgb(116, 236, 160);
+            color: rgb(0, 0, 0);
         }
 
          /*Seletor de classe*/
@@ -24,7 +24,7 @@
             height: 100px;
         }
     body{
-        background-color: grey;
+        background-color: rgb(0, 0, 0);
     }   
     .tabela{
         /*Remover os espaços entre as borbas */
@@ -43,5 +43,24 @@
     .celula2 {
         background-color: rgba(50, 48, 46, 0.19);
     }
+    .formulario{
+        background-color:lightskyblue;
+    }
+    label{
+        background-color:cornflowerblue;
+    }
+    .input-nome{
+        border: none;
+        border-radius:5px;
+        margin-left: 50px;
+        opacity: 70%;
+    }
+    .botao{
+        background-color:blue;
+        border: none;
+        border-radius: 5px;
+        padding: 6px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+    }
 
