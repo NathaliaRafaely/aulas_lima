@@ -4,17 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    .tabela{
+        /*Remover os espaços entre as borbas */
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .cabecalho, .celula {
+        /* Configura o formato da borda Eepessura, tipo e cor */
+        border: 2px solid #ddd;
+        /* Define o espamento interno */
+        padding: 5px;
+        text-align: left;
+        color: black;
+        background-color:darkorchid;
+    }
+    .celula2 {
+        background-color: rgba(50, 48, 46, 0.19);
+    }</style>
 </head>
 <body>
     <h2>Comparando notebooks</h2>
     <Table>
+     <thead>
         <tr>
-            <th>Modelo</th>
-            <th>Marca</th>
-            <th>Processador</th>
-            <th>Memoria RAM </th>
-            <th>Modelo</th>
+            <th class="celula">Imagem</th>
+            <th class="celula">Modelo</th>
+            <th class="celula">Marca</th>
+            <th class="celula">Processador</th>
+            <th class="celula">Memoria RAM </th>
+            <th class="celula">Armazenamento</th>
+            <th class="celula">Tela</th>
+            <th class="celula">Sistema Operacional</th>
+            <th class="celula">Preço</th>
         </tr>
+     </thead>
+     <tbody>
+        <tr>
+          <td class="celula2"><img src=""></td>
+          <td class="celula2">Dell Inspiron 15</td>
+          <td class="celula2">Dell</td>
+          <td class="celula2">Intel Core i3 de 12° Geração</td>
+          <td class="celula2">16 GB DDR4</td>
+          <td class="celula2">512 GB SSD</td>
+          <td class="celula2">Tela 15.6” Full HD (1920X1080)</td>
+          <td class="celula2">Windows 11 Home</td>
+          <td class="celula2">R$ 3.399,00</td>
+        </tr>
+        <tr>
+          <td class="celula2">Maria Petroni</td>
+          <td class="celula2">Lenovo Ideapad 1i</td>
+          <td class="celula2">Andradina</td>
+        </tr>
+      </tbody>
+    
     </Table>
 </body>
 </html>
