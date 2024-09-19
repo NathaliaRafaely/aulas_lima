@@ -74,6 +74,40 @@
         /*Zerar as configurações de aparencia*/
         appearance: none;
         background-color:#fff;
-        border: 2px solid #4caf50;
+        border: 2px solid #5100ff;
+        border-radius: 5px;
     }
-
+    .chegar.checked{
+        background-color: #4caf50;
+    }
+    .email{
+        width: 300px;
+        padding: 5px 5px;
+        margin-left: 5px;
+        border: 2px solid white;
+    }
+    .selecao{
+        appearance: none;
+        width: 300px;
+        padding: 4px;
+        font-size: 16px;
+        color:darkblue;
+        background-color:cornflowerblue;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        /*Sombra no input*/
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.0);
+    }
+    .radio{
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .radio:checked{
+        background-color: #3108fa;
+        border-color: #d10af0;
+    }
