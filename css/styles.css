@@ -56,11 +56,24 @@
         opacity: 70%;
     }
     .botao{
-        background-color:blue;
+        background-color:rgb(0, 13, 255);
         border: none;
         border-radius: 5px;
         padding: 6px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        text-shadow: 25px 1px 4px  rgba(224, 233, 255, 0.718);
 
+    }
+    .checar{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        /*modifica o tipo de cursor*/
+        cursor: pointer;
+        /*Zerar as configurações de aparencia*/
+        appearance: none;
+        background-color:#fff;
+        border: 2px solid #4caf50;
     }
 
