@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formulario{
+           background-color:rgb(225, 92, 240);}
+        .email{
+        width: 300px;
+        margin-left: 5px;
+        border: none;
+        opacity: 80%;
+    }
+    .selecao{
+        appearance: none;
+        width: 300px;
+        padding: 4px;
+        font-size: 16px;
+        color:darkmagenta;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        /*Sombra no input*/
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.0);
+    }
+    .botao{
+        background-color:rgb(255, 255, 255);
+        border: none;
+        border-radius: 2px;
+        padding: 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .input-nome{
+        border: none;
+        opacity: 80%;
+        width: 500px;
+    }
+    .input-telefone{
+        border: none;
+        opacity: 80%;
+        width: 200px;
+    }
+    
+    </style>
+</head>
+<body style="background-color: antiquewhite;">
+    <form class="formulario">
+        <h1>Cadastro de usuário</h1>
+        <label>Nome Completo: </label>
+    <input type="text" class="input-nome"><br>
+    <br>
+    <label>Email</label> 
+    <input type="email" placeholder="Digite seu email" class="email"><br>
+     <br>
+     <label>Data de nascimento:  </label>
+    <!-- Inserindo data -->
+     <input type="date" name="" id=""><br>
+     <br>
+     <label>Telefone: </label>
+    <input type="text" class="input-telefone"><br>
+    <br>
+    <input type="radio" name="Tamanho" class="radio">Feminino
+      <input type="radio" name="Tamanho" class="radio" checked>Masculino
+      <input type="radio" name="Tamanho" class="radio">Outros
+        <br>
+        <h3>Endereço</h3>
+
+        <label>Rua: </label>
+        <input type="text" class="input-telefone">
+        <label>Número: </label>
+        <input type="number" class="input-telefone"><br>
+        <br>
+        <label>Bairro: </label>
+        <input type="text" class="input-telefone">
+        <label>Complemento: </label>
+        <input type="text" class="input-telefone"><br>
+        <br>
+        <label>Cidade: </label>
+        <input type="text" class="input-telefone">
+        <select>
+            <option selected>Selecione o estado </option>
+            <option value="Acre">Acre</option>
+            <option value="Alagoas">Alagoas</option>
+            <option value="Amapá">Amapá</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Bahia">Bahia</option>
+            <option value="Ceará">Ceará</option>
+            <option value="Espírito Santo">Espírito Santo</option>
+            <option value="Goiás">Goiás</option>
+            <option value="Maranhão">Maranhão</option>
+            <option value="Mato Grosso">Mato Grosso</option>
+            <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+            <option value="Minas Gerais">Minas Gerais</option>
+            <option value="Pará">Pará</option>
+            <option value="Paraíba">Paraíba</option>
+            <option value="Paraná">Paraná</option>
+            <option value="Pernambuco">Pernambuco</option>
+            <option value="Piauí">Piauí</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+            <option value="Rondônia">Rondônia</option>
+            <option value="Roraima">Roraima</option>
+            <option value="Santa Catarina">Santa Catarina</option>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Sergipe">Sergipe</option>
+            <option value="Tocantins">Tocantins</option>
+            <option value="Distrito Federal">Distrito Federal</option>
+            </select>
+            <br><br>
+            <label>Senha</label>
+            <input type="password" placeholder="Digite a senha" class="input-telefone">
+            <label>Confirmar senha:</label>
+            <input type="password" placeholder="Digite a senha" class="input-telefone">
+      <br>
+           <br><a href="Login.html" class="botao">Casdatrar </a><br> 
+           <br>
+           <a href="Index.html" class="botao">Cancelar </a>
+        <br>
+    </form>
+</body>
+</html>
