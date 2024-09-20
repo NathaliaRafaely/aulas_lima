@@ -1,0 +1,25 @@
+.div1{
+    background-color: darkblue;
+}
+.div2{
+    background-color:blue;
+}
+.div3{
+    background-color:aqua;
+}
+.container{
+    border: 2px solid black;
+    /*Limita o tamanho do elemento*/
+    max-width: 400px;
+    margin: 0 auto;
+    /*Define o tamanho do elemento e o espaço entre eles*/
+    display: flex;
+    
+}
+
+.item{
+    background: darkblue;
+    margin: 5px;
+    text-align: center;
+    color: aliceblue;
+}
