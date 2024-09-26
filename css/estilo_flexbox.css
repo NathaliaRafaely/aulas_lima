@@ -18,8 +18,14 @@
 }
 
 .item{
-    background: darkblue;
+    background: rgb(0, 0, 0);
     margin: 5px;
     text-align: center;
     color: aliceblue;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
 }
