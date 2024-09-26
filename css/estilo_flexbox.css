@@ -27,5 +27,49 @@
 
 .flex{
     display: flex;
-    flex-direction: column;
+}
+
+.flex > div > img{
+    height: 80px;
+    width: 80px;
+
+}
+
+.div_coluna{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    /*Coloca um espaaço entre os elementos*/
+    gap: 10px;
+    flex-wrap:wrap;
+}
+
+.secao-imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.alinhar-esquerda{
+    display: flex;
+    flex-direction: row;
+    /*Alinhar os elemnetos ao inicio*/
+    justify-content: flex-start;
+}
+.alinhar-centro{
+    display: flex;
+    flex-direction: row;
+    /*Alinhar os elementos ao centro*/
+    justify-content: center;
+}
+.alinhar-direita{
+    display: flex;
+    flex-direction: row;
+    /*Alinha o elementos ao fim*/
+    justify-content: flex-end;
 }
