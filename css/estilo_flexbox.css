@@ -73,3 +73,28 @@
     /*Alinha o elementos ao fim*/
     justify-content: flex-end;
 }
+.alinhar-entre {
+    display: flex;
+    flex-direction: row;
+    /*Aloca os elementos nas pontas e ajusta os elementos do centro*/
+    justify-content: space-between;
+}
+.alinhar-coluna{
+    display: flex;
+    flex-direction: column;
+    /* distribui os itens com espaço ao redor deles */
+    align-items: center;
+        width: 100%;
+    background-color: blueviolet;
+}
+
+.alinhar-itens-centro{
+    display: flex;
+    flex-direction: column;
+    /* distribui os itens com espaço ao redor deles */
+    height: 200px;
+    background-color: rgb(142, 60, 230);
+    align-items: center;
+    justify-content: space-between;
+}
+
