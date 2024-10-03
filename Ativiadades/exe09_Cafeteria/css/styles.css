@@ -16,7 +16,7 @@ nav{
     max-width: 1120px;
     width: 100%;
     margin: 0 auto;
-    background-color: rgb(35, 3, 3);
+    background-color: rgb(0, 0, 0);
     padding: 10px;
 }
 
@@ -57,4 +57,34 @@ li > a{
     box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
     opacity: 0.7;
+}
+body{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.banner_novidades{
+    max-width: 1120px;
+    height: 60vh;
+    margin: auto;
+    padding: 0rem 2rem;
+    gap: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.banner_conteudo{
+    /*Organizamos o conteudo em coluna*/
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.banner_imagens{
+    /*Definir largura máxima*/
+    max-width: 45%;
+    /*Exibir as imagens em 4 colunas*/
+    column-count: 4;
+}
+.banner_imagens > figure >img {
+    width: 100%;
+    border-radius: 3px;
+
 }
