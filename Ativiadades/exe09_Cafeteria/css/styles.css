@@ -4,8 +4,28 @@
     padding: 0;
     /*Assegura que padding e margin sejam incluidos nas dimensões totais do elementos*/
     box-sizing: border-box;
+    
 }
 .logo{
     font-family: Teko;
-    font-size: 5rem;
+    font-size: 2rem;
+    color: white;
+    margin:0.5cm;
+}
+.cabecalho{
+    background-color:rgb(66, 30, 4);
+}
+.alinhar-esquerda{
+    display: flex;
+    flex-direction: row;
+    /*Aloca os elementos nas pontas e ajusta os elementos do centro*/
+    justify-content: center;
+}
+.div_coluna{
+    height: 100px;
+    width: 100px;
+    margin:1cm;
+}
+.link{
+    color: rgb(255, 255, 255);
 }
