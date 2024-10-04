@@ -32,7 +32,7 @@ ul{
     display: flex;
     gap: 1.5rem;
 }
-li{
+li  {
     list-style: none;
 }
 a{
@@ -87,4 +87,106 @@ body{
     width: 100%;
     border-radius: 3px;
 
+}
+
+/*Criando scrool para cards*/
+.card_novo{
+    display: flex;
+    overflow: scroll;
+    gap: 3rem;
+}
+
+/*Removerdo a barra de scrrol*/
+.card_novo::-webkit-scrollbar{
+    display: none;
+}
+
+.receitas{
+    /*Organizando em colunas*/
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 2.5rem 2rem;
+    margin: auto;
+}
+.cabecalho_card{
+    background-color: #2c2b2b;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card{
+    margin-left: 40px;
+    border:   1px solid #544f4f;
+    border-radius: 10px;
+    box-shadow: 10px 0px 20px rgba(255, 255, 255, 0.192);
+    max-width: 260px;
+}
+.rodape_card{
+    background-color: #544f4f;
+    padding: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.button{
+    width: 80px;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 4px;
+}
+/*Mapa*/
+.mapa{
+    max-width: 1120px;
+    width: 600px;
+    height: 400px;
+
+    /*Aplica papel de parede a nossa div*/
+    background-image: url('../img/image.png');
+    background-repeat: no-repeat;
+    /*Aplica tamanho da imagem em todo o espaço*/
+    background-size: cover;
+    margin: 20px auto;
+    position: relative;
+}
+.icone{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.icone1{
+    top: 190px;
+    left: 300px;
+}
+.icone2{
+    top: 180px;
+    left: 255px;
+}
+/*Criando um elemento que não ira aparecer na tela*/
+.div_hover{
+    /*Escondendo a imagem*/
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 500px;
+    height: 400px;
+}
+.icone:hover .div_hover{
+    /*Mostrando a imagem*/
+    display: block;
+    position: absolute;
+    top: 15%;
+    left: 37%;
 }
