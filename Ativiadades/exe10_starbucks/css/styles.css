@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /*Assegura que padding e margin sejam incluidos nas dimensões totais do elementos*/
+    box-sizing: border-box;
+    
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.link{
+    font-family: Poppins;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    margin:0.5cm;
+}
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+ul{
+    display: flex;
+    gap: 1.5rem;
+}
+li  {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li > a{
+    color:whitesmoke;
+    font-family: Poppins;
+}
+.banner_cafe{
+    max-width: 1120px;
+    height: 60vh;
+    margin: auto;
+
+}
+.banner_cafe > img {
+    width: 105%;
+}
+.div1{
+    background-color: rgba(147, 188, 145, 0.806);
+    text-align: center;
+}
+.div2{
+    background-color: rgba(147, 188, 145, 0.806);
+     display: flex;
+    flex-direction: row;
+    /*Alinhar os elemnetos ao inicio*/
+    justify-content: flex-start;
+}
+.imagem_1{
+    width: 25cm;
+    height: 11cm;
+}
+.botao{
+    text-decoration:none;/*Remove a decoração de linha*/
+    color: rgb(255, 255, 255);
+    background-color: rgba(147, 188, 145, 0.806);
+    border-color: rgb(9, 42, 2);
+    border-radius: 30%;
+    padding: 5px 6px;
+    /*Permite definir largura e altura, alinha elementos na mesma linha*/
+    display: inline-block;
+}
