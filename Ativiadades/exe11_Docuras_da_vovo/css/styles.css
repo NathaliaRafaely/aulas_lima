@@ -7,3 +7,7 @@
     width: 70px;
     object-fit: cover;
 }
+.carrosel-item img{
+    height: 600px;
+    object-fit: cover;
+}
