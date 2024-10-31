@@ -29,20 +29,24 @@
 
     <section class="container">
         <h2 class="text-center mb-4">Formulario de inscrição</h2>
-        <form action="">
-            <div class="form-control">
+        <form action="" class="d-flex flex-wrap gap-3 justify-content-between">
+            <div class="form-group">
                 <label>Nome Completo</label>
                 <input type="text" class="form-control" id="nome" name="nome" required placeholder="Digite seu nome:">
             </div>
-            <div class="form-control">
+            <div class="form-group">
                 <label >Email</label>
                 <input type="email" class="form-control" id="email" name="email" required placeholder="Digite seu email:">
             </div>
-            <div class="form-control">
+            <div class="form-group">
                 <label >Telefone</label>
                 <input type="tel" class="form-control" id="Telefone" name="telefone" required placeholder="Digite seu numero de telefone:">
             </div>
-            <div class="form-control">
+            <div class="form-group">
+                <label class="form-label" >Mensagem</label>
+                <textarea class="form-control" name="" id=""></textarea>
+            </div>
+            <div class="form-group">
                 <label class="form-label"> Escolha seu evento</label>
                 <select name="evento" id="evento" class="form-control"> 
                     <option value="" disabled selected>Selecione um evento</option>
@@ -50,10 +54,6 @@
                     <option value="netWork">Sessão NetWork</option>
                     <option value="workshops">Workshops</option>
                 </section>
-            </div>
-            <div class="form-control">
-                <label class="form-label" for="">mensagem</label>
-                <textarea class="form-control" name="" id=""></textarea>
             </div>
             <div>
                 <button>Enviar inscrição</button>

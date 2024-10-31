@@ -33,6 +33,20 @@
 }
 
 /* Ajustes de responsividade*/
+
+.form-group{
+    /*Cada campo ocupara metade da linha*/
+    flex: 1 1 calc(50% - 20);
+}
+
+.form-container{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px !important;
+}
+
+/*Ajustes de responsividade*/
 /* XL -  Extra Grande */
 @media (max-width:1200px){
 
